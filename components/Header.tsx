@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <header>
       <h1 className="text-3xl font-bold mb-2">Eric Nie</h1>
-      <p className="text-secondary">Electrical Engineering @ Waterloo</p>
+      <p className="text-secondary">ECE @ Waterloo</p>
       
       <nav className="flex flex-col gap-3 mt-6">
         <a
