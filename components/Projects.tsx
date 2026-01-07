@@ -36,7 +36,7 @@ export default function Projects() {
           title="Air Quality Monitor"
           stack={["STM32", "C", "Embedded Systems", "I2C", "UART", "BME680", "Fusion 360"]}
           description="Real-time AQI monitoring system on STM32F4. Implements weighted moving average algorithms for sensor smoothing and renders live metrics to an SSD1306 OLED."
-          sourceUrl="https://github.com/ericoletsgo/STM32-Air-Quality-Monitor"
+          sourceUrl="https://github.com/ericoletsgo/ECE-198-main"
           imageUrl="/images/air-quality-monitor.png"
           imageAlt="Air quality monitor prototype with wiring and AQI display"
         />
