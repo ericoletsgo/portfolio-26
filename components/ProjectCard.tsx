@@ -33,13 +33,13 @@ export default function ProjectCard({
       <h3 className="text-lg font-medium text-primary mb-2">{title}</h3>
 
       {imageUrl && (
-        <div className="mb-3 rounded-lg overflow-hidden">
+        <div className="mb-3 rounded-lg overflow-hidden w-3/4 mx-auto aspect-[4/3]">
           <Image
             src={imageUrl}
             alt={imageAlt || title}
             width={800}
-            height={400}
-            className="w-full h-auto object-cover"
+            height={600}
+            className="w-full h-full object-cover"
           />
         </div>
       )}
