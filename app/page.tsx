@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import Experience from "@/components/Experience";
+import Projects from "@/components/Projects";
 
 export default function Home() {
   return (
@@ -7,6 +8,7 @@ export default function Home() {
       <div className="max-w-2xl mx-auto">
         <Header />
         <Experience />
+        <Projects />
       </div>
     </main>
   );
