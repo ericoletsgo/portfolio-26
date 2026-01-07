@@ -34,8 +34,10 @@ export default function Projects() {
 
         <ProjectCard
           title="Air Quality Monitor"
-          stack={["STM32", "C", "Embedded Systems", "I2C", "UART", "BME680", "Fusion 360"]}
-          description="Real-time AQI monitoring system on STM32F4. Implements weighted moving average algorithms for sensor smoothing and renders live metrics to an SSD1306 OLED."
+          stack={["STM32", "Embedded C", "I2C", "UART", "Sensor Drivers", "Signal Processing", "Real Time Systems", "Fusion 360"]}
+          description="Modular embedded firmware for air quality monitoring: custom BME680 driver implementing Bosch compensation algorithms, WMA signal conditioning, checksummed UART protocol for multi-device networks, and SSD1306 OLED graphics rendering.
+
+"
           sourceUrl="https://github.com/ericoletsgo/ECE-198-main"
           imageUrl="/images/air-quality-monitor.png"
           imageAlt="Air quality monitor prototype with wiring and AQI display"
