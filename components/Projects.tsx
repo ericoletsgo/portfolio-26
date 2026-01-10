@@ -17,12 +17,11 @@ export default function Projects() {
 
         <ProjectCard
           title="Custom Macropad"
-          status="in-progress"
-          stack={["KiCad", "QMK Firmware", "Fusion 360", "Raspberry pi"]}
-          description="Custom mechanical keyboard with PCB design, 3D-printed case, and QMK firmware."
-          sourceUrl="https://github.com/ericoletsgo/Hackpad"
+          stack={["KiCad", "QMK Firmware", "C", "Fusion 360", "RP2040"]}
+          description="End-to-end hardware design of a 6-key mechanical macropad. Two-layer PCB with 2x3 switch matrix, anti-ghosting diodes, SK6812MINI-E reverse-mount RGB LEDs daisy-chained over a single data line, EC11 rotary encoder, and SSD1306 OLED over I2C. QMK firmware with encoder mapping and RGB driver. 3D-printed enclosure designed in Fusion 360."
+          sourceUrl="https://github.com/ericoletsgo/Grammalyse"
           imageUrl="/images/hackpad-pcb.png"
-          imageAlt="Custom macropad PCB layout for Hackpad in KiCad"
+          imageAlt="Custom macropad 3D render from KiCad"
         />
 
         <ProjectCard
